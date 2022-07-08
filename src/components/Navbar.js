@@ -39,7 +39,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <button type="button" className="btn bg-transparent d-flex text-light fw-bold fs-5 mx-2">Cart <span className="badge mx-1 py-2 px-3 rounded-pill bg-light text-dark">2</span></button>
+                                    <button type="button" className="btn bg-transparent d-flex text-light fw-bold fs-5 mx-2">Cart <span className="count badge mx-1 py-2 px-3 rounded-pill text-light">2</span></button>
                                 </li>
                             </ul>
                         </div>
