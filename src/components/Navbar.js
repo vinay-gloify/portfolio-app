@@ -3,10 +3,10 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <header id="header-section" className="animated fadeInDown header-fixed">
+        <header id="header-section" className="animated sticky-top fadeInDown header-fixed">
             <div className="overlay">
                 <div className="container d-flex justify-content-around">
-                    <div className="container-fluid  mt-4 mb-4">
+                    <div className="container-fluid   mt-4 mb-4">
                         <a href='/'><img src="/logo.png" alt="readora" /></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

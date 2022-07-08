@@ -30,7 +30,7 @@ const Hero = () => {
                                         <div className='right-area text-center'>
                                             <img src="/banner-circle.png" className='right-img ' alt="banner-circle" />
                                             <div className='download-area'>
-                                                <a href="/" className='download fw-bold fs-5'>
+                                                <a href="/" className='download fw-bold fs-5 bg-light'>
                                                     Download CV
                                                     <img src="/download-Icon.png" className='mx-2' alt="" />
                                                 </a>
@@ -41,10 +41,10 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row justify-content-center'>
+                    <div className='row  justify-content-center'>
                         <div className='col-lg-7 d-flex align-items-center'>
-                            <div className='text-area text-center'>
-                                <h5>HI THERE, I'M JAMES</h5>
+                            <div className='cool text-area text-center'>
+                                <h5 className='fw-bold fs-4'>HI THERE, I'M JAMES</h5>
                                 <h2>A <span>Digital</span> Product Designer</h2>
                                 <div className='btn-area d-flex align-items-center justify-content-center'>
                                     <div>

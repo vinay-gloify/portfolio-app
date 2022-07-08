@@ -1,6 +1,6 @@
 #banner-section {
   position: relative;
-  padding-top: 170px;
+  padding-top: 10px;
   background-image: url(/public/banner-bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -75,6 +75,10 @@ img {
 #banner-section .banner-content .main-content .item.three {
   top: 20%;
   right: 50px;
+}
+
+.cool {
+  margin-left: 120px;
 }
 
 #banner-section .banner-content .main-content .item {
