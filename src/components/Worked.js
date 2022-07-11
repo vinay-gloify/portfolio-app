@@ -12,28 +12,28 @@ const Worked = () => {
               <div className='slick-track d-flex'>
                 <div className='slick-slide text-center mx-5' style={{ width: '200px' }}>
                   <div>
-                    <div className='single-item'>
+                    <div className='single-item py-3'>
                       <img src="/brand-1.png" alt="image" />
                     </div>
                   </div>
                 </div>
                 <div className='slick-slide text-center mx-5' style={{ width: '200px' }}>
                   <div>
-                    <div className='single-item'>
+                    <div className='single-item py-3'>
                       <img src="/brand-2.png" alt="image" />
                     </div>
                   </div>
                 </div>
                 <div className='slick-slide text-center mx-5' style={{ width: '200px' }}>
                   <div>
-                    <div className='single-item'>
+                    <div className='single-item py-3'>
                       <img src="/brand-3.png" alt="image" />
                     </div>
                   </div>
                 </div>
                 <div className='slick-slide text-center mx-5' style={{ width: '200px' }}>
                   <div>
-                    <div className='single-item'>
+                    <div className='single-item py-3'>
                       <img src="/brand-4.png" alt="image" />
                     </div>
                   </div>

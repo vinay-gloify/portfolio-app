@@ -87,7 +87,7 @@ const Latest = () => {
                                     like what you see? <span>follow me</span> and
                                     discover more great  designs
                                 </h2>
-                                <div className='social d-flex justify-content-center'>
+                                <div className='social d-flex justify-content-center mb-5'>
                                     <a href="/" className='single-icon dribbble'>
                                         <img src="/social-Icon1.png" alt="social" />
                                     </a>
