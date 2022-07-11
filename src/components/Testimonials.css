@@ -1,0 +1,28 @@
+#testimonials .left-area {
+  position: relative;
+  background-image: url(/public/testimonials-slider-bg.png);
+  background-repeat: no-repeat;
+  background-size: 80% 96%;
+}
+
+.left-area img {
+  transform: translate(45px, -60px);
+}
+.left-area img {
+  transition: all 0.8s;
+  padding: 35px 0 0 50px;
+  transform: translate(16px, -86px);
+  padding-top: 115px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.righthead {
+  color: #5a3e8e;
+}
+
+.bi {
+}
