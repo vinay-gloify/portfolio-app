@@ -1,0 +1,42 @@
+#faq-section .overlay {
+  margin-bottom: -22px;
+}
+
+.section-header {
+  margin-top: -6px;
+  margin-bottom: 56px;
+}
+
+#faq-section .overlay .card {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 9.272px 3.746px 38px 0px rgb(176 163 231 / 26%);
+  border: none;
+}
+
+.accordion-button {
+  width: 100%;
+  font-size: 22px;
+  color: rgb(59, 54, 140);
+  line-height: 1.455;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  padding: 4px 57px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  /* logo */
+
+  background-image: url(/public/faq-icon.png);
+  background-repeat: no-repeat;
+}
+.tabbb {
+  margin-left: 250px !important;
+}
