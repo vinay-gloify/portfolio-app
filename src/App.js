@@ -4,6 +4,7 @@ import Latest from "./components/Latest";
 import Navbar from "./components/Navbar";
 import Special from "./components/Special";
 import Testimonials from "./components/Testimonials";
+import Worked from "./components/Worked";
 import YourTurn from "./components/YourTurn";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Latest />
       <YourTurn />
       <Testimonials />
+      <Worked />
     </>
 
   );
