@@ -8,9 +8,6 @@ const Navbar = () => {
                 <div className="container d-flex justify-content-around">
                     <div className="container-fluid   mt-4 mb-4">
                         <a href='/'><img src="/logo.png" alt="readora" /></a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
                     </div>
                     <nav className="navbar  navbar-expand-lg navbar-light bg-transparent">
                         <div className="collapse mx-2 navbar-collapse" id="navbarNavDropdown">
@@ -45,17 +42,25 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <button type="button" className="btn bg-transparent d-flex text-light fw-bold fs-5 mx-2">Cart <span className="count badge mx-1 py-2 px-3 rounded-pill text-light">2</span></button>
+                                    <button type="button" className="btn bg-transparent d-flex text-light fw-bold fs-5 mx-2 mt-4">Cart <span className="count badge mx-1  py-2 px-3 rounded-pill text-light">2</span></button>
                                 </li>
                             </ul>
                         </div>
-                        <div className='mt-2'>
-                            <span className="contact badge px-4 py-3 rounded-pill bg-danger fw-bold">CONTACT ME</span>
+                        <div className='d-flex'>
+                            <div className='mt-2'>
+                                <span className="contact badge px-4 py-3 rounded-pill bg-danger fw-bold">CONTACT ME</span>
+                            </div>
+                            <button className="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon bg-light"></span>
+                            </button>
                         </div>
                     </nav>
                 </div>
             </div>
         </header>
+
+        // --------------------------------------------------------------------------------------------------------------
+
     )
 }
 
