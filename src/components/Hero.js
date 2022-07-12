@@ -41,23 +41,16 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row  justify-content-center'>
-                        <div className='col-lg-7 d-flex align-items-center'>
-                            <div className='cool text-area text-center'>
+                    <div className='row d-flex justify-content-center'>
+                        <div className='col-xs flex align-items-center'>
+                            <div className='text-area text-center'>
                                 <h5 className='fw-bold fs-4'>HI THERE, I'M JAMES</h5>
                                 <h2>A <span>Digital</span> Product Designer</h2>
                                 <div className='btn-area d-flex align-items-center justify-content-center'>
-                                    <div>
-                                        <span className="contact badge px-4 py-3 rounded-pill"><a href="/" className='fw-bold'>Contact Me</a></span>
-                                    </div>
-                                    <div>
-                                        <span className='btn-icon fw-bold fs-5 my-2 mx-5'>View Project </span>
-                                    </div>
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" fill="#311567" className="bi bi-arrow-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                                        </svg>
-                                    </div>
+                                    <a href="/" className='cmn-btn'>Contact Me</a>
+                                    <a href="/">View Project <span><svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" fill="#311567" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></span></a>
                                 </div>
                             </div>
                         </div>
