@@ -7,8 +7,8 @@ const YourTurn = () => {
             <div className='overlay pt-120 pb-120'>
                 <div className='container wow fadeInUp'>
                     <div className='row'>
-                        <div className='col-lg-7'>
-                            <div className='section-header'>
+                        <div className='col-lg-7 binn' style={{ 'margin-top': '100px' }}>
+                            <div className='section-header binned' style={{ 'margin-right': '590px' }}>
                                 <h4 className='sub-title-alt'>Now Your Turn</h4>
                                 <h3 className='title'>Interested in Working with Me?</h3>
                                 <p>Do you need help with any web design or development project?
@@ -27,26 +27,26 @@ const YourTurn = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item'>
+                            <div className='single-item mt-5'>
                                 <span className='counter'>18</span>
                                 <h5>Happy Clients</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item second'>
+                            <div className='single-item second mt-5'>
                                 <span className='counter'>5</span>
                                 <h5>Years Experience</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item third'>
+                            <div className='single-item third mt-5'>
                                 <span className='counter'>9</span>
                                 <span>k</span>
                                 <h5>Hours Worked</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item fourth'>
+                            <div className='single-item fourth mt-5'>
                                 <span className='counter'>1</span>
                                 <h5>Awards Won</h5>
                             </div>

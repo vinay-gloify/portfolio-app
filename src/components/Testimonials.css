@@ -24,5 +24,40 @@ img {
   color: #5a3e8e;
 }
 
-.bi {
+@media (max-width: 991px) {
+  #testimonials .left-area {
+    margin-top: 86px;
+    margin-right: -350px;
+    margin-bottom: 1106px;
+    font-size: 63px;
+    position: relative;
+    background-size: 106% 96%;
+    transform: translate(-10px, -86px);
+  }
+}
+
+@media (max-width: 991px) {
+  #testimonials .left-area img {
+    transform: translate(30px, -80px);
+  }
+}
+
+@media (max-width: 991px) {
+  #testimonials .righthead {
+    margin-top: 600px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  #testimonials .byron {
+    margin-top: -0px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  #testimonials .sgv {
+    margin-left: 100px;
+  }
 }

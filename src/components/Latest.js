@@ -4,7 +4,7 @@ import './Latest.css';
 const Latest = () => {
     return (
         <section id="latest-project">
-            <div className="overlay pt-120 pb-120 my-5">
+            <div className="overlay pt-120 pb-120">
                 <div className='container wow fadeInUp'>
                     <div className='row justify-content-center text-center'>
                         <div className='col-lg-6'>
@@ -18,7 +18,7 @@ const Latest = () => {
                     </div>
                     <div className='single-item'>
                         <div className='row d-flex justify-content-between'>
-                            <div className='col-lg-5 col-md-5 d-flex align-items-center'>
+                            <div className='col-lg-5'>
                                 <div className='text-area'>
                                     <h5>Product Design</h5>
                                     <a href="/"><h2>Mobile App Redesign</h2></a>
@@ -29,7 +29,7 @@ const Latest = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-7 col-md-7 d-flex align-items-center'>
+                            <div className='col-lg-7'>
                                 <div className='right-area'>
                                     <img src="/latest-project1.png" alt="image" />
                                 </div>
@@ -80,7 +80,7 @@ const Latest = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row d-flex justify-content-center'>
+                    <div className='row d-flex justify-content-center' style={{ "margin-top": "-250px" }}>
                         <div className='col-lg-6 text-center'>
                             <div className='bottom-area'>
                                 <h2>

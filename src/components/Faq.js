@@ -15,10 +15,10 @@ const Faq = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row d-flex justify-content-center tabbb'>
+                    <div className='row d-flex justify-content-center'>
                         <div className='col-lg-8 wow fadeInUp'>
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item mb-3 p-3 w-75">
+                            <div class="accordion accordion-flush" id="accordionFlushExample ">
+                                <div class="accordion-item mb-3 p-3 w-100">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                             What is your work dicipline?
@@ -30,7 +30,7 @@ const Faq = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mb-3 p-3 w-75">
+                                <div class="accordion-item mb-3 p-3 w-100">
                                     <h2 class="accordion-header" id="flush-headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                             What is your location & timezone?
@@ -42,7 +42,7 @@ const Faq = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mb-3 p-3 w-75">
+                                <div class="accordion-item mb-3 p-3 w-100">
                                     <h2 class="accordion-header" id="flush-headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                             How often can we communicate?
@@ -52,7 +52,7 @@ const Faq = () => {
                                         <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloribus cumque deleniti ducimus harum itaque voluptatibus reprehenderit, quam officia, assumenda voluptates officiis. Ea, pariatur deleniti magnam omnis illum ad saepe.</div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mb-5 p-3 w-75">
+                                <div class="accordion-item mb-5 p-3 w-100">
                                     <h2 class="accordion-header" id="flush-headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                             What is your hourly rate?
