@@ -70,6 +70,21 @@ li {
   line-height: 1.556;
 }
 
-. {
-  margin-top: 100px;
+@media (max-width: 991px) {
+  #footer-section .bottom-area .row {
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer-section .bottom-area .bot a img {
+    margin-bottom: 70px;
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer-section .bottom-area .boto a {
+    margin-left: -15px;
+  }
 }

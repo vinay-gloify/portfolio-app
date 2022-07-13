@@ -26,7 +26,7 @@ const Testimonials = () => {
                                 incredible results, leading success for our
                                 UI & UX
                             </h3>
-                            <p className='mb-4 mt-5' style={{ "font-size": "38px" }}>
+                            <p className='mb-4 mt-5 lrom'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper, sapien sit amet scelerisque laoreet, eros justo congue neque, in maximus tellus velit vitae lacus.
                             </p>
                             <h4 className='righthead byron mb-4 mt-5'>Byron Burns <span>CEO @APPLE</span></h4>

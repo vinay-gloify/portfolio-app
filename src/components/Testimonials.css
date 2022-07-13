@@ -11,7 +11,7 @@
 .left-area img {
   transition: all 0.8s;
   padding: 35px 0 0 50px;
-  transform: translate(16px, -86px);
+  transform: translate(59px, -84px);
   padding-top: 115px;
 }
 
@@ -60,4 +60,14 @@ img {
   #testimonials .sgv {
     margin-left: 100px;
   }
+}
+
+@media (max-width: 991px) {
+  .lrom {
+    font-size: 38px !important;
+  }
+}
+
+.lrom {
+  font-size: 20px;
 }

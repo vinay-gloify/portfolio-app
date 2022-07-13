@@ -17,8 +17,8 @@ const Latest = () => {
                         </div>
                     </div>
                     <div className='single-item'>
-                        <div className='row d-flex justify-content-between'>
-                            <div className='col-lg-5'>
+                        <div className='row xing d-flex justify-content-between'>
+                            <div className='col'>
                                 <div className='text-area'>
                                     <h5>Product Design</h5>
                                     <a href="/"><h2>Mobile App Redesign</h2></a>
@@ -29,7 +29,7 @@ const Latest = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-7'>
+                            <div className='col'>
                                 <div className='right-area'>
                                     <img src="/latest-project1.png" alt="image" />
                                 </div>
@@ -37,13 +37,13 @@ const Latest = () => {
                         </div>
                     </div>
                     <div className='single-item'>
-                        <div className='row d-flex justify-content-between'>
-                            <div className='col-lg-7 col-md-7 d-flex align-items-center'>
+                        <div className='row xing d-flex justify-content-between'>
+                            <div className='col d-flex align-items-center'>
                                 <div className='right-area mid'>
                                     <img src="/latest-project2.png" alt="img" />
                                 </div>
                             </div>
-                            <div className='col-lg-5 col-md-5 d-flex align-items-center'>
+                            <div className='col d-flex align-items-center'>
                                 <div className='text-area'>
                                     <h5 className='mid'>UI/UX Design</h5>
                                     <a href="/"><h2>Mobile App Design</h2></a>
@@ -59,8 +59,8 @@ const Latest = () => {
                     </div>
 
                     <div className='single-item'>
-                        <div className='row d-flex justify-content-between'>
-                            <div className='col-lg-5 col-md-5 d-flex align-items-center'>
+                        <div className='row xing d-flex justify-content-between'>
+                            <div className='col d-flex align-items-center'>
                                 <div className='text-area'>
                                     <h5 className='last'>Web Design</h5>
                                     <a href="/">
@@ -73,7 +73,7 @@ const Latest = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-7 col-md-7 d-flex align-items-center'>
+                            <div className='col d-flex align-items-center'>
                                 <div className='right-area'>
                                     <img src="/latest-project3.png" alt="image" />
                                 </div>

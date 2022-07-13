@@ -526,3 +526,9 @@ li {
   margin-top: -150px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 991px) {
+  .xing {
+    flex-direction: column;
+  }
+}
