@@ -47,7 +47,7 @@
 
 #banner-section .banner-content .main-content .item.one {
   top: 25%;
-  left: 130px;
+  left: 170px;
 }
 
 @media (max-width: 991px) {
@@ -105,18 +105,19 @@ h6 {
 }
 
 #banner-section .banner-content .main-content .item.two {
-  bottom: 25%;
+  bottom: 23%;
+  left: 65px;
   box-shadow: 2.3px 21.879px 79px 0px rgb(219 210 255 / 80%);
 }
 
 #banner-section .banner-content .main-content .item.three {
   top: 25%;
-  right: 105px;
+  right: 150px;
 }
 
 #banner-section .banner-content .main-content .item.four {
-  bottom: 25%;
-  right: -20px;
+  bottom: 23%;
+  right: 40px;
   box-shadow: 2.3px 21.879px 79px 0px rgb(219 210 255 / 80%);
 }
 
@@ -134,7 +135,7 @@ h6 {
 
 @media (min-width: 991px) and (max-width: 1449.98px) {
   #banner-section .right-area .right-img {
-    width: 100% !important;
+    width: 80% !important;
   }
 }
 
