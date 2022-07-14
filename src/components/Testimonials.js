@@ -1,4 +1,5 @@
 import React from 'react';
+import { TestiMonialsUser } from '../images';
 import './Testimonials.css';
 
 const Testimonials = () => {
@@ -17,8 +18,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className='d-flex justify-content-between mt-5'>
-                        <div className='col-sm left-area '>
-                            <img src="/testimonials-user.png" alt="image" />
+                        <div className='col-sm left-area'>
+                            <img src={TestiMonialsUser} alt="img" />
                         </div>
                         <div className='col-sm text-area mt-5'>
                             <h3 className='righthead mb-4 fw-bold '>

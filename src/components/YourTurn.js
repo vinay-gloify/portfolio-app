@@ -1,4 +1,5 @@
 import React from 'react';
+import { NowYourTurnRight } from '../images';
 import './YourTurn.css';
 
 const YourTurn = () => {
@@ -7,13 +8,13 @@ const YourTurn = () => {
             <div className='overlay pt-120 pb-120'>
                 <div className='container wow fadeInUp'>
                     <div className='row'>
-                        <div className='col-lg-7 binn' style={{ 'margin-top': '100px' }}>
-                            <div className='section-header binned' style={{ 'margin-right': '590px' }}>
+                        <div className='col-lg-7 binn'>
+                            <div className='section-header binned'>
                                 <h4 className='sub-title-alt'>Now Your Turn</h4>
                                 <h3 className='title'>Interested in Working with Me?</h3>
                                 <p>Do you need help with any web design or development project?
                                     Let me give you a hand. Get in touch with me and i will get back to
-                                    you within 1-2 business days.</p>
+                                    you within <br /> 1-2 business days.</p>
                                 <a href="/" className='cmn-btn'>Contact me</a>
                             </div>
                         </div>
@@ -21,7 +22,7 @@ const YourTurn = () => {
                 </div>
             </div>
             <div className='right-area'>
-                <img src="/now-your-turn-right.png" alt="image" />
+                <img src={NowYourTurnRight} alt="img" />
             </div>
             <div className='bottom-area'>
                 <div className='container'>
