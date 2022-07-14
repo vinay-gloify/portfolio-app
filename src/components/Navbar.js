@@ -6,27 +6,27 @@ const Navbar = () => {
         <header id="header-section" className="animated sticky-top fadeInDown header-fixed">
             <div className="overlay">
                 <div className="container d-flex justify-content-around">
-                    <div className="container-fluid   mt-4 mb-4">
+                    <div className="container-fluid mt-4 mb-4">
                         <a href='/'><img src="/logo.png" alt="readora" /></a>
                     </div>
-                    <nav className="navbar  navbar-expand-lg navbar-light bg-transparent">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
                         <div className="collapse mx-2 navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link active text-light fw-bold fs-5" aria-current="page" href="/">Home</a>
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="/"><span className="mx-3 text-light fw-bold">Home</span></a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-light fw-bold fs-5" href="/">About</a>
+                                <li className="nav-item ">
+                                    <a className="nav-link" href="/"><span className="mx-3 text-light fw-bold ">About</span></a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-light fw-bold fs-5" href="/">Portfolio</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/"><span className="mx-3 text-light fw-bold">Portfolio</span></a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-light fw-bold fs-5" href="/">Products</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/"><span className="mx-3 text-light fw-bold">Products</span></a>
                                 </li>
-                                <li className="nav-item mx-3 dropdown">
-                                    <a className="nav-link dropdown-toggle text-light fw-bold fs-5" href="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Pages
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link" href="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span className="dropdown-toggle mx-3 text-light fw-bold">Pages</span>
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a className="dropdown-item" href="/">Blog</a></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <button type="button" className="btn bg-transparent d-flex text-light fw-bold fs-5 mx-2 mt-4">Cart <span className="count badge mx-1  py-2 px-3 rounded-pill text-light">2</span></button>
+                                    <button type="button" className="btn bg-transparent d-flex mt-2"><span className='text-light fw-bold fs-5 mx-1 mt-4'>Cart</span><span className="count badge mt-4 py-2 px-3 rounded-pill text-light">2</span></button>
                                 </li>
                             </ul>
                         </div>
