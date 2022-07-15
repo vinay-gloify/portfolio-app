@@ -21,7 +21,7 @@ const YourTurn = () => {
                 </div>
             </div>
             <div className='right-area'>
-                <img src="/now-your-turn-right.png" alt="image" />
+                <img src="/now-your-turn-right.png" alt="img" />
             </div>
             <div className='bottom-area'>
                 <div className='container'>

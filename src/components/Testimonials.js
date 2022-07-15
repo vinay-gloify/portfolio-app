@@ -18,7 +18,7 @@ const Testimonials = () => {
                     </div>
                     <div className='d-flex justify-content-between mt-5'>
                         <div className='col-sm left-area '>
-                            <img src="/testimonials-user.png" alt="image" />
+                            <img src="/testimonials-user.png" alt="img" />
                         </div>
                         <div className='col-sm text-area mt-5'>
                             <h3 className='righthead mb-4 fw-bold '>

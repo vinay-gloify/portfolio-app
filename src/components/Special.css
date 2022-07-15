@@ -333,7 +333,7 @@ a:hover {
 
 a {
   display: inline-block;
-  font-family: var(--body-font);
+  font-family: row;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;

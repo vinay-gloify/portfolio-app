@@ -260,6 +260,21 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
+.cmn-btn-second:hover {
+  /* position: absolute;
+  content: "";
+  top: -4px; */
+  /* width: 10px;
+  height: 10px; */
+  /* border-top: 1px solid;
+  border-right: 1px solid;
+  border-color: white; */
+  /* transform-origin: 66% 66%;
+  transform: rotate(45 deg);
+  right: 1px;
+  transition: all ease 0.7s; */
+}
+
 #banner-section .text-area .btn-area .cmn-btn-second .btn-icon {
   background-color: #311567;
 }
@@ -307,4 +322,26 @@ li {
   .right-img {
     margin-top: 30px !important;
   }
+}
+
+.btn-icon {
+  position: relative;
+  content: "";
+  background-color: white;
+  top: -5px;
+  left: 5px;
+  height: 1px;
+  width: 40px;
+  display: inline-block;
+  transition: all 0.7s;
+}
+
+#banner-section .text-area .btn-area .cmn-btn-second .btn-icon::before {
+  border-color: #311567;
+}
+
+.cmn-btn-second {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
 }

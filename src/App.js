@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
