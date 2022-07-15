@@ -260,19 +260,9 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.cmn-btn-second:hover {
-  /* position: absolute;
-  content: "";
-  top: -4px;
-  width: 10px;
-  height: 10px;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-color: white;
-  transform-origin: 66% 66%;
-  transform: rotate(45 deg);
-  right: 1px;
-  transition: all ease 0.7s;   */
+.btn-icon:hover {
+  width: 60px;
+  transition: all ease 1s;
 }
 
 #banner-section .text-area .btn-area .cmn-btn-second .btn-icon {

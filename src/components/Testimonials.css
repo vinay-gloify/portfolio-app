@@ -71,3 +71,21 @@ img {
 .lrom {
   font-size: 20px;
 }
+
+.btn-icon {
+  background-color: #a8a8a8;
+}
+
+.cmn-btn-second:hover .btn-icon {
+  width: 60px;
+}
+
+.btn-icon::before {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-color: #a8a8a8;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

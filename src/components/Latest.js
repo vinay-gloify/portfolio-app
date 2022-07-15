@@ -83,7 +83,7 @@ const Latest = () => {
                     <div className='row d-flex justify-content-center' style={{ "margin-top": "-250px" }}>
                         <div className='col-lg-6 text-center'>
                             <div className='bottom-area'>
-                                <h2 style={{ "font-family": "now", "font-weight": "500" }}>
+                                <h2>
                                     like what you see? <span>follow me</span> and
                                     discover more great  designs
                                 </h2>

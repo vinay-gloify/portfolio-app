@@ -30,14 +30,22 @@ const Testimonials = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper, sapien sit amet scelerisque laoreet, eros justo congue neque, in maximus tellus velit vitae lacus.
                             </p>
                             <h4 className='righthead byron mb-4 mt-5'>Byron Burns <span>CEO @APPLE</span></h4>
-                            <span className='sgv mt-5'>
+                            {/* <span className='sgv mt-5'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="#a8a8a8" className="bi bi-arrow-left mx-3" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                                 </svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="#a8a8a8" className="bi bi-arrow-right mx-3" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
-                            </span>
+                            </span> */}
+                            <div className='d-flex mt-5 mb-5'>
+                                <a href="/" className='cmn-btn-second rotate' >
+                                    <span className='btn-icon'></span>
+                                </a>
+                                <a href="/" className='cmn-btn-second mx-5'>
+                                    <span className='btn-icon'></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

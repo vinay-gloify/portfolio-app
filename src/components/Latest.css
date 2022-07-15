@@ -559,20 +559,5 @@ li {
   transform-origin: 66% 66%;
   transform: rotate(45deg);
   right: 1px;
-  transition: all ease 0.3s;
-}
-
-.btn-icon::before {
-  position: absolute;
-  content: "";
-  top: -4px;
-  width: 10px;
-  height: 10px;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-color: white;
-  transform-origin: 66% 66%;
-  transform: rotate(45deg);
-  right: 1px;
-  transition: all ease 0.3s;
+  transition: all ease 1s;
 }
