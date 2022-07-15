@@ -12,6 +12,7 @@ import YourTurn from "./components/YourTurn";
 function App() {
   return (
     <>
+      <a href="/" className="scrollToTop active bg-light"><i class="fas fa-angle-double-up"></i></a>
       <Navbar />
       <Hero />
       <Special />
