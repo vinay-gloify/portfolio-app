@@ -28,7 +28,7 @@ img {
   #testimonials .left-area {
     margin-top: 86px;
     margin-right: -350px;
-    margin-bottom: 1106px;
+    margin-bottom: 1260px;
     font-size: 63px;
     position: relative;
     background-size: 106% 96%;
@@ -38,7 +38,7 @@ img {
 
 @media (max-width: 991px) {
   #testimonials .left-area img {
-    transform: translate(30px, -80px);
+    transform: translate(25px, -76px);
   }
 }
 
