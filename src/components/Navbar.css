@@ -1,4 +1,8 @@
 #header-section {
+  /* background-color: transparent; */
+}
+
+.header-bg {
   background-color: #5c2cc5;
 }
 

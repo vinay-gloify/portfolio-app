@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 0 px;
   background-image: url(/public/banner-bg.png);
-  background-size: 100% 100%;
+  background-size: 100% 128%;
   background-repeat: no-repeat;
 }
 
@@ -27,6 +27,15 @@
 
 #banner-section .banner-content {
   position: relative;
+  top: 150px;
+  margin-top: -110px;
+}
+
+@media (max-width: 575px) {
+  #banner-section {
+    background-size: 143% 88%;
+    top: -108px;
+  }
 }
 
 @media (max-width: 575px) {

@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
+
+    const [color, setColor] = useState(false);
+
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
+
+
     return (
-        <header id="header-section" className="animated sticky-top fadeInDown header-fixed">
+        <header id="header-section" className={color ? 'header-bg animated sticky-top fadeInDown header-fixed' : '#header-section animated sticky-top fadeInDown header-fixed'}>
             <div className="overlay">
                 <div className="container d-flex justify-content-around">
                     <div className="container-fluid mt-4 mb-4">
                         <a href='/'><img src="/logo.png" alt="readora" /></a>
                     </div>
-                    <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="collapse mx-2 navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
