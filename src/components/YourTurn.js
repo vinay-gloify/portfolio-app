@@ -27,26 +27,26 @@ const YourTurn = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item mt-5'>
+                            <div className='single-item'>
                                 <span className='counter'>18</span>
                                 <h5>Happy Clients</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item second mt-5'>
+                            <div className='single-item second'>
                                 <span className='counter'>5</span>
                                 <h5>Years Experience</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item third mt-5'>
+                            <div className='single-item third'>
                                 <span className='counter'>9</span>
                                 <span>k</span>
                                 <h5>Hours Worked</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
-                            <div className='single-item fourth mt-5'>
+                            <div className='single-item fourth'>
                                 <span className='counter'>1</span>
                                 <h5>Awards Won</h5>
                             </div>

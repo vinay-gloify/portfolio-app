@@ -30,7 +30,7 @@ const Hero = () => {
                                         <div className='right-area text-center'>
                                             <img src="/banner-circle.png" className='right-img ' alt="banner-circle" />
                                             <div className='download-area'>
-                                                <a href="/" className='download fs-5 bg-light'>
+                                                <a href="/" className='download fs-5 bg-light mt-3'>
                                                     Download CV
                                                     <img src="/download-Icon.png" className='mx-2' alt="" />
                                                 </a>

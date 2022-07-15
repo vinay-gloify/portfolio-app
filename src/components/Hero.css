@@ -105,8 +105,8 @@ h6 {
 }
 
 #banner-section .banner-content .main-content .item.two {
-  bottom: 23%;
-  left: 65px;
+  bottom: 20%;
+  left: 80px;
   box-shadow: 2.3px 21.879px 79px 0px rgb(219 210 255 / 80%);
 }
 
@@ -116,8 +116,8 @@ h6 {
 }
 
 #banner-section .banner-content .main-content .item.four {
-  bottom: 23%;
-  right: 40px;
+  bottom: 20%;
+  right: 65px;
   box-shadow: 2.3px 21.879px 79px 0px rgb(219 210 255 / 80%);
 }
 
@@ -263,16 +263,16 @@ a:hover {
 .cmn-btn-second:hover {
   /* position: absolute;
   content: "";
-  top: -4px; */
-  /* width: 10px;
-  height: 10px; */
-  /* border-top: 1px solid;
+  top: -4px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid;
   border-right: 1px solid;
-  border-color: white; */
-  /* transform-origin: 66% 66%;
+  border-color: white;
+  transform-origin: 66% 66%;
   transform: rotate(45 deg);
   right: 1px;
-  transition: all ease 0.7s; */
+  transition: all ease 0.7s;   */
 }
 
 #banner-section .text-area .btn-area .cmn-btn-second .btn-icon {
