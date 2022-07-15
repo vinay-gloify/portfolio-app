@@ -1,5 +1,4 @@
 
-/* footer-section */
 #footer-section .overlay{
   position: relative;
   background-image: url(../assets/Images/footer-bg.png);
@@ -17,6 +16,8 @@
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+
+
 #footer-section .bottom-area {
   padding-bottom: 30px;
 }
@@ -28,4 +29,11 @@
 }
 #footer-section .footer-bottom .main-content .left-area p a{
   color: #a50a82;
+}
+
+@media (min-width: 576px) {
+  .col-sm-4 {
+      flex: 0 0 auto;
+      width: 21.333333%;
+  }
 }

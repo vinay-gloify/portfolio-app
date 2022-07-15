@@ -4,12 +4,13 @@
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
   align-items: center;
   justify-content: center;
 }
+
 
 #header-section {
   position: absolute;
@@ -54,4 +55,11 @@
 #header-section .navbar .navbar-nav .dropdown{
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 991px) {
+
+  .navbar-collapse .main-menu {
+      padding-top: 30px;
+  }
 }

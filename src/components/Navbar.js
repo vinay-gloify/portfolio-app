@@ -15,6 +15,20 @@ const Navbar = () => {
                <img src={Logo} alt="site-logo" />
              </a>
            </div>
+
+            {/* Toggler bar */}
+            <button
+             className="navbar-toggler"
+             type="button"
+             data-bs-toggle="collapse"
+             data-bs-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent"
+             aria-expanded="false"
+             aria-label="Toggle navigation"
+           >
+             <i className="fas fa-bars"></i>
+           </button>
+
            <nav className="navbar navbar-expand-lg p-0">
              <div
                className="navbar-collapse collapse"
@@ -36,7 +50,7 @@ const Navbar = () => {
                    <a href="/products">Products</a>
                  </li>
                  <li className="menu_has_children">
-                   <a href="/">Pages</a>
+                   <a href="#0">Pages</a>
                    <ul className="sub-menu">
                      <li>
                        <a href="/">Blog</a>
@@ -73,18 +87,7 @@ const Navbar = () => {
                Contact Me
              </a>
            </div>
-           {/* Toggler bar */}
-           <button
-             className="navbar-toggler"
-             type="button"
-             data-bs-toggle="collapse"
-             data-bs-target="#navbarSupportedContent"
-             aria-controls="navbarSupportedContent"
-             aria-expanded="false"
-             aria-label="Toggle navigation"
-           >
-             <i className="fas fa-bars"></i>
-           </button>
+          
          </div>
        </div>
      </div>
