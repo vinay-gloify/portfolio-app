@@ -72,6 +72,34 @@
   }
 }
 
+@media (max-width: 991px) {
+  #header-section {
+    background-image: url(/public/banner-bg.png);
+    background-size: 350% 350%;
+  }
+}
+
+hr {
+  margin: 0rem 0 !important;
+}
+
 .dropdown-menu {
-  min-width: 14rem;
+  padding: 0rem 0rem;
+}
+
+.dropdown-menu :hover {
+  color: #fff;
+}
+
+.dropdown-item {
+  padding: 1.25rem 2rem !important;
+}
+
+.dropdown-menu li a:hover {
+  border-radius: 0 0 0px 0px !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
