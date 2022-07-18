@@ -27,13 +27,15 @@
   position: relative;
   text-align: left;
   text-decoration: none;
+  background-color: rgb(255, 255, 255);
   padding: 4px 57px;
   border-radius: 10px;
   display: flex;
   align-items: center;
-
-  /* logo */
-
   background-image: url(../assets/Images/faq-icon.png);
   background-repeat: no-repeat;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  background-color: rgb(255, 255, 255);
 }

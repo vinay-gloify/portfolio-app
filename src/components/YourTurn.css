@@ -1,4 +1,4 @@
-/* Now Your Turn */
+
  #now-your-turn {
   position: relative;
   background-color: rgb(98, 45, 207);
@@ -20,6 +20,7 @@
   top: -8%;
 }
 #now-your-turn .bottom-area .single-item{
+ position: relative;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: 1.463px 13.923px 57px 0px rgba(43, 0, 132, 0.1);

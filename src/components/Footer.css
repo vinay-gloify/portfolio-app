@@ -6,9 +6,7 @@
   background-repeat: no-repeat;
   margin: 0 5%;
 }
-#footer-section .overlay .section-header .cmn-btn{
-  margin-top: 36px;
-}
+
 #footer-section .overlay .section-header {
   margin-bottom: -8px;
 }
@@ -36,4 +34,10 @@
       flex: 0 0 auto;
       width: 21.333333%;
   }
+}
+@media (max-width: 767px) {
+  #footer-section .overlay .section-header .cmn-btn {
+    margin-top: 35px;
+}
+
 }

@@ -53,12 +53,12 @@ const Faq = () => {
                                     </div>
                                 </div>
                                 <div class="accordion-item mb-5 p-3 w-100">
-                                    <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                             What is your hourly rate?
                                         </button>
                                     </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloribus cumque deleniti ducimus harum itaque voluptatibus reprehenderit, quam officia, assumenda voluptates officiis. Ea, pariatur deleniti magnam omnis illum ad saepe.</div>
                                     </div>
                                 </div>
