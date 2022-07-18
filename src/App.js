@@ -8,11 +8,12 @@ import Special from "./components/Special";
 import Testimonials from "./components/Testimonials";
 import Worked from "./components/Worked";
 import YourTurn from "./components/YourTurn";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   return (
     <>
-      <a href="/" className="scrollToTop active bg-light"><i class="fas fa-angle-double-up"></i></a>
+      <ScrollButton />
       <Navbar />
       <Hero />
       <Special />
