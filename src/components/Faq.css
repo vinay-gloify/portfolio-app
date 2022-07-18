@@ -37,3 +37,15 @@
   background-image: url(/public/faq-icon.png);
   background-repeat: no-repeat;
 }
+
+.accordion {
+  padding-left: 190px;
+  padding-right: 168px;
+}
+
+@media (max-width: 991px) {
+  .accordion {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

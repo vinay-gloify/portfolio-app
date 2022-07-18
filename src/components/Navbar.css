@@ -11,10 +11,6 @@
   margin-bottom: -7px;
 }
 
-/* .navbar-nav {
-  padding-left: 44px;
-} */
-
 *,
 ::after,
 ::before {
@@ -75,9 +71,6 @@
     padding-left: 44px;
   }
 }
-
-/* .dropdown-item a:hover {
-} */
 
 .dropdown-menu {
   min-width: 14rem;

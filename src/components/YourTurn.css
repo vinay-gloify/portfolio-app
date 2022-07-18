@@ -32,8 +32,8 @@
 #now-your-turn .overlay .section-header p {
   color: rgb(240, 232, 255);
 }
+
 .title {
-  font-family: var(--body-font);
   font-size: 60px;
   color: rgb(49, 21, 102);
   font-weight: bold;
