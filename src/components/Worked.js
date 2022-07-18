@@ -59,37 +59,3 @@ const Worked = () => {
 
 
 export default Worked;
-// {/* <div className='worked-carousel slick-initialized slick-slider'>
-//   <div className='slick-list draggable'>
-//     <div className='slick-track d-flex justify-content-center'>
-//       <div className='slick-slide'>
-//         <div>
-//           <div className='single-item'>
-//             <img src={Brand1} alt="img" />
-//           </div>
-//         </div>
-//       </div>
-//       <div className='slick-slide'>
-//         <div>
-//           <div className='single-item'>
-//             <img src={Brand2} alt="img" />
-//           </div>
-//         </div>
-//       </div>
-//       <div className='slick-slide'>
-//         <div>
-//           <div className='single-item'>
-//             <img src={Brand3} alt="img" />
-//           </div>
-//         </div>
-//       </div>
-//       <div className='slick-slide'>
-//         <div>
-//           <div className='single-item'>
-//             <img src={Brand4} alt="img" />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </div> */}

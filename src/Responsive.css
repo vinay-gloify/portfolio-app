@@ -318,7 +318,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
     #header-section .navbar .navbar-nav .menu_has_children::after {
         transform: translateX(0px);
-        right: 15px;
+       left: 75px;
     }
     
 }
