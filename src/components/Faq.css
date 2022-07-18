@@ -49,3 +49,8 @@
     padding-right: 0px;
   }
 }
+
+.accordion-button {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
