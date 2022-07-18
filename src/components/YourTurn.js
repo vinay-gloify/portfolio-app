@@ -1,5 +1,6 @@
 import React from 'react';
 import './YourTurn.css';
+import CountUp from 'react-countup';
 
 const YourTurn = () => {
     return (
@@ -28,26 +29,30 @@ const YourTurn = () => {
                     <div className='row'>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
                             <div className='single-item'>
-                                <span className='counter'>18</span>
+                                {/* <span className='counter'>18</span> */}
+                                <CountUp end={57} enableScrollSpy />
                                 <h5>Happy Clients</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
                             <div className='single-item second'>
-                                <span className='counter'>5</span>
+                                {/* <span className='counter'>5</span> */}
+                                <CountUp end={16} enableScrollSpy />
                                 <h5>Years Experience</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
                             <div className='single-item third'>
-                                <span className='counter'>9</span>
+                                {/* <span className='counter'>9</span> */}
+                                <CountUp end={30} enableScrollSpy />
                                 <span>k</span>
                                 <h5>Hours Worked</h5>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
                             <div className='single-item fourth'>
-                                <span className='counter'>1</span>
+                                {/* <span className='counter'>1</span> */}
+                                <CountUp end={5} enableScrollSpy />
                                 <h5>Awards Won</h5>
                             </div>
                         </div>
